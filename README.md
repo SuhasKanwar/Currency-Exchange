@@ -1,5 +1,7 @@
 # Currency Exchange
 
+![Project_013_Currency_Converter](https://github.com/user-attachments/assets/8aa6805a-e55d-4549-9a22-8304a97cd234)
+
 **Description:** Convert currencies instantly with our easy-to-use currency converter. Get real-time exchange rates for over 158 currencies worldwide. Perfect for travelers, traders, and anyone needing accurate currency conversions.
 
 ## Features
