@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Suhas Kanwar">
+        <meta name="keywords" content="currency, converter, exchange, dollar, ruppee, 158 countries">
+        <meta name="Description" content="Convert currencies instantly with our easy-to-use currency converter. Get real-time exchange rates for over 158 currencies worldwide. Perfect for travelers, traders, and anyone needing accurate currency conversions.">
+        <title>Currency Exchange</title>
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/style_sheets/Project_013_styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Currency Exchange</h1>
+            </header>
+            <form>
+                <div class="exchange-rate-container">
+                    <p>Exchange Rate</p>
+                    <div id="exchanged-rate"></div>
+                </div>
+                <div class="converter-container">
+                    <div class="amount-container">
+                        <p class="amount-header">Amount</p>
+                        <input type="number" id="amount-input" min="0" placeholder="Enter Amount">
+                    </div>
+                    <div class="choose-country-container">
+                        <div class="from-country">
+                            <p class="from-header">From</p>
+                            <div class="select-container">
+                                <img src="https://flagsapi.com/US/flat/64.png" alt="country-flag" class="country-flag" id="from-flag">
+                                <select name="from">
+                                </select>
+                            </div>
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right-arrow-left" id="exchange-symbol"></i>
+
+                        <div class="to-country"> 
+                            <p class="to-header">To</p>
+                            <div class="select-container">
+                                <img src="https://flagsapi.com/IN/flat/64.png" alt="country-flag" class="country-flag" id="to-flag">
+                                <select name="to">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="convert-button">CONVERT</button>
+                </div>
+            </form>
+        </div>
+        <script src="scripts/country_codes.js"></script>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
